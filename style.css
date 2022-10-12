@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.goldFont {
+    color: goldenrod;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+.container {
+    margin: 2rem;
+}
+
+input {
+    margin-right: 2rem;
+}
+
+button {
+    margin-left: 2rem;
+    padding: 0.5rem;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+.resultSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.numberList {
+    width: 20%;
+    height: 100vh;
+    margin-left: 2rem;
+}
+.fiDiv {
+    width: 40%;
+    height: 100vh;
+}

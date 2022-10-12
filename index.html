@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złoty generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="goldFont">Generator złotych ciągów</h1>
+    <div class="container">
+        <span class="plainText">n<sub>01</sub>=</span>
+        <input type="number" id="firstNumber">
+        <span class="plainText">n<sub>02</sub>=</span>
+        <input type="number" id="secondNumber">
+        <span class="plainText">Ile wyrazów złotego ciągu =></span>
+        <input type="number" min="3" max="25" id="rowsNumber">
+    </div>
+
+    <button id="button">Generuj ciąg</button>
+    
+    <div class="resultSection">
+        <div class="numberList" id="numberList"></div>
+        <div class="fiDiv" id="fiDiv"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
